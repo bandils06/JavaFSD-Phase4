@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BindingComponent } from './binding/binding.component';
+import { InterpolationBindingComponent } from './interpolation-binding/interpolation-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BindingComponent
+    BindingComponent,
+    InterpolationBindingComponent
   ],
   imports: [
     BrowserModule,
