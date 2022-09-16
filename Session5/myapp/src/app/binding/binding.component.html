@@ -16,7 +16,7 @@
     <tbody>
         <!--NgDirective eg: *ngFor-->
         <tr *ngFor="let p of products">
-            <td>{{p.name}}</td>
+            <td [style.font-weight]="we">{{p.name}}</td> <!--Style Binding-->
             <td>{{p.price}}</td>
             <td>{{p.available}}</td>
             <td>{{p.ratings}}</td>
