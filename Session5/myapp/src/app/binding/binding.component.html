@@ -29,5 +29,18 @@
 <h2>Bind the data from source to view using Interpolation</h2>
 <p>{{name}}</p> <!--Interpolation Binding: '{{}}'-->
 <br>
+
 <h2>Bind the data from source to view using Property Binding:[]</h2>
 <a [href]="url">Redirect to Google.com</a> <!--Property Binding: '[]'-->
+<br>
+
+<hr>
+<div class="container">
+    <h3>This is the example of Event Binding</h3>
+    <br>
+    <button class="btn btn-primary" (click)="show()">Show Div</button>
+
+    <div *ngIf="flag" style="background-color: yellowgreen;">
+        This is My Div and You Have Successfully Implememneted EVENT BINDING
+    </div>
+</div>

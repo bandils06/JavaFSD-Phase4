@@ -23,4 +23,9 @@ export class BindingComponent implements OnInit {
   name:string="Hrithik Bandil"; // Interpolation Binding
   url:string="http://www.google.com"; // Property Binding
   we:number=700; //Style Binding
+
+  flag=false;
+  show() {
+    this.flag=!this.flag;
+  }
 }
