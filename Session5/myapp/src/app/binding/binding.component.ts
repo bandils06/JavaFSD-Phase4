@@ -18,4 +18,7 @@ export class BindingComponent implements OnInit {
             {name:"Product D", price:"140", available:"Y", ratings:3.6},
             {name:"Product E", price:"2100", available:"N", ratings:4.2}
   ]
+
+  name:string="Hrithik Bandil"
+  url:string="www.google.com"
 }
