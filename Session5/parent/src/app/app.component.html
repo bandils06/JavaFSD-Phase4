@@ -1,0 +1,8 @@
+<h1>Component Interaction</h1>
+<hr><br>
+<h2>Parent Component</h2>
+
+<!--Parent to child communication-->
+<input type="text" (keyup)="0" #ptext>
+
+<app-child [pdata]="ptext.value"></app-child>
