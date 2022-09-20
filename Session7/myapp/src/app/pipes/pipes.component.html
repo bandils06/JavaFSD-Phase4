@@ -61,3 +61,19 @@
         <p><b>With JSON Pipe: </b>{{object | json}}</p>
     </div>
 </div>
+
+<hr>
+<h1>Custom Pipes</h1>
+<hr>
+
+<div class="jumbotron" style="background-color: aliceblue;">
+    <div class="container">
+        
+        <p><b>Original String </b>{{cust}}</p>
+        <p><b>Custom Pipe : </b>{{cust | changestring:' '}}</p>
+        <hr>
+        <p><b>Inbuilt & Custom Pipe : </b>{{cust | uppercase| changestring:' '}}</p>
+        <hr>
+        
+    </div>
+</div>
