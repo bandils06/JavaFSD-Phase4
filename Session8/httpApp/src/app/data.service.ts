@@ -8,8 +8,8 @@ import { UserClass } from './UserClass';
 })
 
 export class DataService {
-  url: string = "https://jsonplaceholder.typicode.com/users";
-
+  //url: string = "https://jsonplaceholder.typicode.com/users";
+  url: string = "./assets/db.json";
   //inject the DI
   constructor(private http: HttpClient) { }
   getAllUsers(): Observable<UserClass[]> {

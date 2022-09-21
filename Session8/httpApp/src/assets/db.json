@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Raam",
+        "username": "raam.raam",
+        "email": "raam@gmail.com",
+        "phone": "9876543210",
+        "website": "www.google.com"
+    },
+    {
+        "id": 2,
+        "name": "Sam",
+        "username": "sam.sam",
+        "email": "sam@gmail.com",
+        "phone": "9876543210",
+        "website": "www.google.com"
+    },
+    {
+        "id": 3,
+        "name": "Rohan",
+        "username": "rohan.rohan",
+        "email": "rohan@gmail.com",
+        "phone": "9876543210",
+        "website": "www.google.com"
+    },
+    {
+        "id": 4,
+        "name": "Sohan",
+        "username": "sohan.sohan",
+        "email": "sohan@gmail.com",
+        "phone": "9876543210",
+        "website": "www.google.com"
+    },
+    {
+        "id": 5,
+        "name": "Mohan",
+        "username": "mohan.mohan",
+        "email": "mohan@gmail.com",
+        "phone": "9876543210",
+        "website": "www.google.com"
+    }
+]
